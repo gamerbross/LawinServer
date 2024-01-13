@@ -1,5 +1,15 @@
 {
-  "friends": [],
+  "friends": [
+    {
+      "accountId": "gamerbross",
+      "groups": [],
+      "mutual": 0,
+      "alias": "",
+      "note": "",
+      "favorite": false,
+      "created": "2023-12-24T03:17:52.148Z"
+    }
+  ],
   "incoming": [],
   "outgoing": [],
   "suggested": [],

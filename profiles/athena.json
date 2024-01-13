@@ -118817,7 +118817,7 @@
   "stats": {
     "attributes": {
       "past_seasons": [],
-      "season_match_boost": 999999999,
+      "season_match_boost": 0,
       "loadouts": [
         "lawin-loadout"
       ],
@@ -118827,8 +118827,8 @@
         "dailyLoginInterval": "0001-01-01T00:00:00.000Z",
         "dailyQuestRerolls": 1
       },
-      "book_level": 100,
-      "season_num": 0,
+      "book_level": 1,
+      "season_num": 27,
       "favorite_consumableemote": "",
       "banner_color": "DefaultColor1",
       "favorite_callingcard": "",
@@ -118843,7 +118843,7 @@
       "pinned_quest": "",
       "purchased_bp_offers": [],
       "favorite_loadingscreen": "",
-      "book_purchased": true,
+      "book_purchased": false,
       "lifetime_wins": 100,
       "favorite_hat": "",
       "level": 100,
@@ -118867,7 +118867,7 @@
       "favorite_glider": "AthenaGlider:DefaultGlider",
       "daily_rewards": {},
       "xp": 0,
-      "season_friend_match_boost": 999999999,
+      "season_friend_match_boost": 0,
       "active_loadout_index": 0,
       "favorite_musicpack": "",
       "banner_icon": "StandardBanner1",

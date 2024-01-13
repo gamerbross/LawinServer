@@ -9,16 +9,16 @@
   "version": "no_version",
   "items": {
     "Campaign": {
-      "templateId": "Token:campaignaccess",
-      "attributes": {
-        "max_level_bonus": 0,
-        "level": 1,
-        "item_seen": true,
-        "xp": 0,
-        "favorite": false
-      },
-      "quantity": 1
-    },
+			"templateId": "Token:campaignaccess",
+			"attributes": {
+				"max_level_bonus": 0,
+				"level": 1,
+				"item_seen": true,
+				"xp": 0,
+				"favorite": false
+			},
+			"quantity": 0
+		},
     "CampaignFoundersPack1": {
       "templateId": "Token:founderspack_1",
       "attributes": {

@@ -41,9 +41,9 @@ express.get("/clearitemsforshop", async (req, res) => {
     }
 })
 
-express.get("/eulatracking/api/shared/agreements/fn*", async (req, res) => {
-    res.json({})
-})
+express.get("/eulatracking/api/*/agreements/fn*", async (req, res) => {
+	res.status(204).end();
+});
 
 express.get("/fortnite/api/game/v2/friendcodes/*/epic", async (req, res) => {
     res.json([])

@@ -2,6 +2,19 @@ const Express = require("express");
 const express = Express.Router();
 const discovery = require("./../responses/Athena/Discovery/discovery_frontend.json");
 
+express.all(
+	"/fortnite/api/discovery/accessToken/:fortniteVersion",
+	(req, res) => {
+		const useragent = req.headers["user-agent"];
+		const regex = useragent.match(/\+\+Fortnite\+Release-\d+\.\d+/);
+		res.json({
+			branchName: regex[0],
+			appId: "Fortnite",
+			token: "VcNps1e7qJEqZbQ2tzEb5OOD+JM7McOPu7H4hyap6PE=", //`${crypto.randomBytes(10).toString("hex")}=`,
+		});
+	}
+);
+
 express.post("*/discovery/surface/*", async (req, res) => {
     res.json(discovery);
 })
